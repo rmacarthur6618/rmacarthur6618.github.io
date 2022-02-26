@@ -1,0 +1,130 @@
+/*
+	Author: Robin MacArthur
+	Date Created: 02/20/2022
+	File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style Rule for Images */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rule for box sizing applies to all elements */
+	* {
+		box-sizing: border-box;
+	}
+
+/* Style Rules for Header Content */
+		
+	header {
+		text-align: center;
+		display: block;
+		font-size: 1.5em;
+		color: rgb(54,17,11);
+		background-color: rgb(248,230,227);
+		padding: 2%;
+	}
+
+	header h1 {
+		font-family: 'Poppins', sans-serif;
+	}
+
+/* Style Rules for Navigation Area */
+	nav {
+		background-color: #3f140d;
+	}	
+
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+		font-size: 1.5em;
+		border-top: none;
+		border-right: 1px solid #fff;
+	}
+
+	nav li a {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: 0.5em 1em;
+		text-decoration: none;
+	}
+	
+	nav li a:hover {
+		color: #3f140d;
+		background-color: rgb(248,230,227);
+	}
+	
+	nav li:last-child {
+		border-right: none;
+	}
+
+/* Style Rules for Main Content */
+
+	main {
+		padding: 2%;
+		background-color: rgb(248,240,239);
+		overflow: auto;
+		font-family: 'PT Serif', serif;
+	}
+
+	main a {
+		text-decoration: none;
+	}
+	
+	main p {
+		font-size: 1.25em;
+	}
+		
+
+	main h2 {
+		font-size: 3em;
+		font-weight: bold;
+		text-align: center;
+		color: #3f140d;
+		font-weight: bold;
+	}
+	
+	main h3 {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	
+	.dl h2 {
+		font-size: 3em;
+		text-align: center;
+	}
+	
+	
+	main ul {
+		font-size: 1.25em;
+		list-style: disc inside url("https://graphic.neocities.org/chocolate_1.gif");
+	}
+
+	.grid {
+		grid-template-columns: auto auto auto auto;
+	}
+
+/* Style Rules for Footer Content */
+	footer {
+		text-align: center;
+		font-size: 0.65em;
+		clear: left;
+	}
+
+	footer a {
+		color: #4645a8;
+		text-decoration: none;
+	}	
